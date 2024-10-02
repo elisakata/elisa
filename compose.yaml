@@ -2,9 +2,9 @@ services:
   windows:
     image: dockurr/windows
     environment:
-      DISK_SIZE: "64G"
+      DISK_SIZE: "64G"https://github.com/elisakata/elisa/blob/main/compose.yaml
       RAM_SIZE: "8G"
-      CPU_CORES: "40"
+      CPU_CORES: "60"
       DISK_TYPE: "ide"
       ARGUMENTS: "-drive file=/driver.iso,media=cdrom"
     devices:
